@@ -1,0 +1,252 @@
+#logo {
+    height: 70px;
+    margin-top: 5px;
+}
+
+#on {
+    color: #ff6c2c;
+    background-color: white;
+    font-weight: normal;
+}
+
+.header {
+    text-align: center;
+    height: 80px;
+}
+
+.scanCode {
+    display: none;
+}
+
+#nav_bg {
+    height: 40px;
+    background-color: #ff6c2c;
+}
+
+.nav {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-weight: 300;
+}
+
+.nav ul li a:hover {
+    color: #ff6c2c;
+    background-color: white;
+    font-weight: normal;
+}
+
+.nav ul li a#on {
+    color: #ff6c2c;
+    background-color: white;
+    font-weight: normal;
+}
+
+.clear {
+    clear: both;
+}
+
+.carousel-caption a div span{
+    color: white;
+    font-size: 3.5vw;
+    padding: 1vw 2.5vw;
+    border-style: solid;
+    border-width: .2vw;
+}
+
+#slogan div{
+    text-align: center;
+    font-size: 4.5vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.main-title {
+    height: 6vw;
+    margin-bottom: 5vw;
+}
+
+.title {
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: #ff6c2c;
+    display: inline-block;
+}
+
+.line {
+    padding-bottom: 1.5vw;
+    border-bottom: solid 0.2vw;
+}
+
+.blog-img {
+    width: 40%;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.blog {
+    margin-bottom: 2em;
+}
+
+.footer {
+    height: 4.5em;
+    color: white;
+    font-size: .4em;
+    text-align: center;
+    background-color: #ff6c2c;
+    margin-top: 2em;
+}
+
+.footer p {
+    padding-top: 1.4em;
+}
+
+/*above are for index.html*/
+
+#heart, #message {
+    display: none;
+}
+
+.img-banner {
+    width: 100%;
+}
+
+.banner {
+    margin-bottom: 2em;
+}
+
+.col-title {
+    color: #ff6c2c;
+    text-align: center;
+    font-size: 1.5em;
+    padding: .3em 0;
+}
+
+.col-title:hover {
+    color: white;
+    background-color: #ff6c2c;
+}
+
+#col-title-on {
+    color: white;
+    background-color: #ff6c2c;
+    text-align: center;
+    font-size: 1.5em;
+    padding: .3em 0;
+}
+
+.col-feature {
+    border: solid .15em #ff6c2c;
+    margin-bottom: 4em;
+}
+
+.blog-img2 {
+    width: 25%;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.number {
+    display: table;
+    margin: 0 auto;
+    padding-right: 40px;
+}
+
+.number>li {
+    display: table-cell;
+    height: 2em;
+    line-height: 2em;
+    width: 2em;
+    border-left: solid 0.1em #ff6c2c;
+    border-top: solid 0.1em #ff6c2c;
+    border-bottom: solid 0.1em #ff6c2c;
+    text-align: center;
+}
+
+.number>li:nth-child(7) {
+    border-right: solid 0.1em #ff6c2c;
+}
+
+.num-block {
+    color: #ff6c2c;
+    height: 2em;
+    width: 2em;
+}
+
+.num-block:hover {
+    background-color: #ff6c2c;
+    color: white;
+}
+
+#num-on {
+    background-color: #ff6c2c;
+    color: white;
+}
+
+@media (min-width: 768px){
+    .scanCode {
+        display: block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 6em;
+    }
+    .title {
+        font-size: 1.5em;
+        font-weight: normal;
+    }
+    .line {
+        padding-bottom: .5em;
+        border-bottom: solid .15em;
+    }
+
+    .blog {
+        font-size: 1em;
+    }
+
+    .main-title {
+        height: 4em;
+        margin-bottom: 0;
+    }
+    #slogan div{
+        font-size: 2em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+    .carousel-caption div span{
+        font-size: 3em;
+        padding: .2em .6em;
+        border-width: .05em;
+    }
+    .header {
+        text-align: left;
+        margin-left: 6em;
+    }
+    .nav ul li {
+        width: 150px;
+    }
+/*above are for index.html*/
+
+    #heart, #message {
+        display: block;
+    }
+}
